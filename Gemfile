@@ -34,6 +34,7 @@ end
 gem 'devise'
 gem 'settingslogic'
 gem 'delayed_job_active_record'
+gem 'carrierwave'
 
 group :development do
   gem 'mails_viewer'
@@ -63,6 +64,7 @@ group :assets do
   gem 'uglifier',       '>= 1.0.3'
   gem 'jquery-rails'
   gem 'bootstrap-datepicker-rails'
+  gem 'jquery-fileupload-rails'
 end
 
 group therubyracer_group do
